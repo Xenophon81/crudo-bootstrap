@@ -2,8 +2,14 @@
 
 $yellow: #ffce4d;
 $green: #6dccaa;
+$brown: #ebcd9b;
 
-body {
+.jumbotron {
+    background-color: $green;
+}
+
+.stick-to-top {
+    background-color: white !important;
 }
 
 // Navbar Styling
@@ -50,8 +56,27 @@ section {
     &.green-background {
         background-color: $green;
     }
+    &.brown-background {
+        background-color: $brown;
+    }
 }
 
 .img-parallax {
     object-fit: contain;
+}
+
+@mixin price() {
+    text-align: right;
+    float: right;
+    font-size: 23px;
+    font-weight: 700;
+    color: #f7c040;
+}
+
+.price-table table td:nth-child(2) {
+    @include price();
+}
+
+tr {
+    border-bottom: 2px dotted $yellow;
 }

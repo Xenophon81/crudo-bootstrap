@@ -1,42 +1,50 @@
+.jumbotron {
+  background-color: #6dccaa; }
+
+.stick-to-top {
+  background-color: white !important; }
+
 .navbar a {
-  font-weight: bold;
-}
+  font-weight: bold; }
 
 .social {
-  bottom: 0;
-}
-.social i {
-  font-size: 4rem;
-}
+  bottom: 0; }
+  .social i {
+    font-size: 4rem; }
 
 section h2 {
-  position: relative;
-}
-section h2:after {
-  content: "";
-  position: absolute;
-  bottom: -20px;
-  border-bottom: 1px solid black;
-  width: 9%;
-  left: 0;
-  margin-bottom: 1.2rem;
-}
+  position: relative; }
+  section h2:after {
+    content: "";
+    position: absolute;
+    bottom: -20px;
+    border-bottom: 1px solid black;
+    width: 9%;
+    left: 0;
+    margin-bottom: 1.2rem; }
 
 .col-md-6.text-right h2:after {
   right: 0;
-  left: unset;
-}
+  left: unset; }
 
 section.yellow-background {
-  background-color: #ffce4d;
-}
+  background-color: #ffce4d; }
 section.green-background {
-  background-color: #6dccaa;
-}
+  background-color: #6dccaa; }
+section.brown-background {
+  background-color: #ebcd9b; }
 
 .img-parallax {
-  -o-object-fit: contain;
-     object-fit: contain;
-}
+  object-fit: contain; }
+
+.price-table table td:nth-child(2) {
+  text-align: right;
+  float: right;
+  font-size: 23px;
+  font-weight: 700;
+  color: #f7c040; }
+
+tr {
+  border-bottom: 2px dotted #ffce4d; }
 
 /*# sourceMappingURL=style.css.map */
