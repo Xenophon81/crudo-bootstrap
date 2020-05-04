@@ -1,4 +1,9 @@
 // voorkeuren...
-$blue: red;
+$primary: #6dccaa;
+$warning: #f7c040;
+
+$enable-rounded: false;
+$font-family-base: "Raleway", sans-serif;
+
 // import
 @import "./bootstrap/bootstrap.scss";
