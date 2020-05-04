@@ -1,0 +1,197 @@
+/* Your Code goes here, example: */
+
+*, *:after, *:before {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  color: #404040;
+}
+
+header {
+  padding: 10px 0;
+  background-color: #6dccaa;
+}
+
+/* start */
+
+.stick-to-top {
+  /* border: 1px solid red; */
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+header.stick-to-top {
+  background-color: white;
+  box-shadow: 4px 4px 24px -7px rgba(0, 0, 0, 0.64);
+}
+
+.logo {
+  height: 40px;
+}
+
+header.stick-to-top nav a {
+  color: black;
+}
+
+/* end */
+
+header nav a {
+  text-decoration: none;
+  color: white;
+  font-size: 1rem;
+  padding: 10px 20px;
+  display: inline-block;
+  transition: color 1s ease;
+}
+
+header nav a:hover {
+  color: #ffce4d;
+}
+
+.container {
+  width: 80vw;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.flex {
+  display: flex;
+}
+
+.space-between {
+  justify-content: space-between;
+}
+
+nav {
+  /* background: green; */
+}
+
+.hero {
+  min-height: 100vh;
+}
+
+.green {
+  background-color: #6dccaa;
+}
+
+.fifty {
+  width: 50%;
+}
+
+img.fluid {
+  max-width: 100%;
+  display: block;
+  height: auto;
+}
+
+section .column {
+  padding: 1rem;
+}
+
+h2 {
+  margin-top: 0;
+  position: relative;
+}
+
+h2:after {
+  content: "";
+  width: 20%;
+  position: absolute;
+  bottom: -10px;
+  left: 0;
+  border-bottom: 1px solid #404040;
+}
+
+.yellow {
+  /* background-color: #ffce4d; */
+  background-color: pink;
+  min-height: 100vh;
+}
+
+/* .yellow .flex {
+  justify-content: center;
+  align-items: center;
+}
+
+.green .flex {
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+} */
+
+.full-height {
+  min-height: 100vh;
+}
+
+.super-center {
+  justify-content: center;
+  align-items: center;
+}
+
+/* */
+
+.alt-order .column:first-child {
+  order: 2;
+}
+
+.alt-order .column:last-child {
+  order: 1;
+  text-align: right;
+}
+
+.alt-order h2:after {
+  left: unset;
+  right: 0;
+}
+
+a.hamburger {
+  display: none;
+}
+
+@media screen and (max-width: 940px) {
+  header nav a {
+    display: none;
+  }
+  a.hamburger {
+    display: block;
+  }
+}
+
+a.button {
+  text-decoration: none;
+  border: 2px solid black;
+  color: black;
+  padding: 10px 16px;
+  text-transform: uppercase;
+  transition: all 0.5s ease-in-out;
+  font-weight: 700;
+}
+
+a.button:hover {
+  color: white;
+  background-color: #FFCE4D;
+  border-color: #FFCE4D;
+}
+
+p {
+  font-size: 1rem;
+  margin: 0 0 1rem 0;
+  line-height: 1.9;
+}
+
+footer {
+  background-color: #F0F0F0;
+}
+
+.thirty {
+  width: calc(100% /3);
+}
+
+.footer-bottom {
+  background-color: #E6E6E6;
+  padding: 2rem 0;
+}
