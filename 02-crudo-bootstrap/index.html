@@ -8,12 +8,13 @@
 
   <!-- Own CSS -->
   <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
   <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.css' />
 
 
   <!-- customized bootstrap -->
   <link rel="stylesheet" href="./css/bootstrap.css">
+
 
   <!-- my bootstrap theme -->
   <link rel="stylesheet" href="./css/style.css">
@@ -134,10 +135,12 @@
 
   <!-- new section: 'eetcafe image ' -->
 
-  <section class="yellow-background my-3">
+  <section class="yellow-background my-3 text-center">
     <div class="container">
-      <div class="col">
-        <img src="./img/eetcafe.jpg" alt="foto bramen" class="w-100 img-fluid">
+      <div class="row">
+        <div class="col">
+          <img src="./img/eetcafe.jpg" alt="foto bramen" class="w-100 img-fluid">
+        </div>
       </div>
     </div>
   </section>
@@ -172,10 +175,12 @@
   </section>
 
 
-  <section class="green-background my-3">
+  <section class="green-background my-3 text-center">
     <div class="container">
       <div class="row">
-        <img src="./img/winkel.jpg" alt="banaan" class="img-fluid">
+        <div class="col">
+          <img src="./img/winkel.jpg" alt="banaan" class="img-fluid">
+        </div>
       </div>
     </div>
   </section>
@@ -211,10 +216,12 @@
   </section>
 
 
-  <section class="brown-background my-3">
+  <section class="brown-background my-3 text-center">
     <div class="container">
       <div class="row">
-        <img src="./img/menu.jpg" alt="menu" class="img-fluid">
+        <div class="col">
+          <img src="./img/menu.jpg" alt="menu" class="img-fluid">
+        </div>
       </div>
     </div>
   </section>
@@ -246,9 +253,8 @@
             </tbody>
           </table>
 
-
-
         </div>
+
         <div class="col-md-6">
 
           <table class="table table-borderless">
@@ -273,7 +279,7 @@
 
 
         </div>
-      </div>
+      </div><!-- end of .row -->
 
       <div class="row my-5">
         <div class="col text-center">
@@ -284,12 +290,118 @@
 
           <a href="" class="btn btn-outline-dark">bekijk de volledige menukaart</a>
 
+        </div> <!-- end of .col -->
+      </div> <!-- end of .row -->
+
+    </div><!-- end of .container -->
+  </section>
+
+  <section class="mint-background my-3 text-center">
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <img src="./img/coaching.jpg" alt="menu" class="img-fluid">
         </div>
       </div>
-
     </div>
   </section>
 
+
+  <div class="container coaching my-5">
+    <div class="row">
+      <div class="col-md-6">
+        <img src="./img/radijs.jpg" alt="radijs" class="float-right">
+      </div>
+      <div class="col-md-6">
+        <h2>Coaching</h2>
+        <p class="caption">Je gezondheid &amp; Welzijn in eigen hand</p>
+        <hr>
+        <p>Ben jij op zoek naar een andere en vooral gezondere leefstijl of heb je persoonlijke thema’s? Wij staan voor
+          je klaar! Door middel van persoonlijke begeleiding helpen we je de switch naar een gezondere leefstijl te
+          maken. Je kunt bij ons terecht voor voedingsadvies, Touch of Matrix behandelingen en Holistische massage.</p>
+      </div>
+    </div>
+  </div>
+
+  <a href="http://www.googlemaps.be" class="d-block text-center py-5 google-maps-link">
+    <i class="fas fa-map-marker-alt"></i> <span>Bekijk ons op Google Maps</span>
+  </a>
+
+
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4 text-center my-3">
+
+          <img src="./img/logo_footer.svg" alt="logo footer" class="w-50">
+
+          <div class="social-icons">
+            <a href="http://www.facebook.com">
+              <i class="fab fa-facebook"></i>
+            </a>
+
+            <a href="http://www.twitter.com">
+              <i class="fab fa-twitter"></i>
+            </a>
+
+            <a href="http://www.instagram.com">
+              <i class="fab fa-instagram"></i>
+            </a>
+          </div>
+
+          <h4> <i class="fas fa-map-marker-alt"></i> &nbsp; Address</h4>
+          <p>Burchtstraat 126</p>
+          <p>6511 RK Nijmegen</p>
+
+          <h4><i class="fas fa-phone-volume"></i>&nbsp; Contact</h4>
+          <p><strong>tel:</strong> +34 345309534534</p>
+          <p><strong>tel:</strong> +34 345309534534</p>
+          <p><strong>tel:</strong> +34 345309534534</p>
+          <p><strong>tel:</strong> +34 345309534534</p>
+
+
+
+        </div>
+
+        <div class="col-md-4">
+          <h4 class="text-center h6">Openingsuren</h4>
+
+          <ul class="openingsuren">
+            <li>
+              <span>Maandag</span>
+              <span>gesloten</span>
+            </li>
+            <li>
+              <span>Dinsdag</span>
+              <span>gesloten</span>
+            </li>
+
+            <li>
+              <span>Woensdag</span>
+              <span>gesloten</span>
+            </li>
+
+            <li>
+              <span>Donderdag</span>
+              <span>gesloten</span>
+            </li>
+
+            <li>
+              <span>Vrijdag</span>
+              <span>gesloten</span>
+            </li>
+
+          </ul>
+
+          <p class="text-center">
+            Buiten de openingstijden langskomen kan op aanvraag.
+          </p>
+
+        </div>
+        <div class="col-md-4">3</div>
+      </div>
+    </div>
+  </footer>
 
 
   <div id="debug">

@@ -33,6 +33,8 @@ section.green-background {
   background-color: #6dccaa; }
 section.brown-background {
   background-color: #ebcd9b; }
+section.mint-background {
+  background-color: #c1e092; }
 
 .img-parallax {
   object-fit: contain; }
@@ -51,5 +53,26 @@ tr {
   color: #fff;
   background-color: #ffce4d;
   border-color: #ffce4d; }
+
+a.google-maps-link {
+  background-color: #fafafa;
+  text-decoration: none;
+  transition: 1s ease all;
+  color: #333;
+  font-size: 1.5rem; }
+  a.google-maps-link:hover {
+    color: white;
+    background-color: #ffce4d; }
+
+ul.openingsuren {
+  padding: 0; }
+  ul.openingsuren li {
+    display: flex; }
+    ul.openingsuren li span {
+      flex: 0 0 50%; }
+      ul.openingsuren li span:first-child {
+        text-align: right;
+        padding-right: 1rem;
+        font-weight: 700; }
 
 /*# sourceMappingURL=style.css.map */

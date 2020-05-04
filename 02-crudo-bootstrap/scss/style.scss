@@ -3,6 +3,7 @@
 $yellow: #ffce4d;
 $green: #6dccaa;
 $brown: #ebcd9b;
+$mint: #c1e092;
 
 .jumbotron {
     background-color: $green;
@@ -59,6 +60,9 @@ section {
     &.brown-background {
         background-color: $brown;
     }
+    &.mint-background {
+        background-color: $mint;
+    }
 }
 
 .img-parallax {
@@ -87,4 +91,35 @@ tr {
     color: #fff;
     background-color: $yellow;
     border-color: $yellow;
+}
+
+a.google-maps-link {
+    background-color: #fafafa;
+    text-decoration: none;
+    transition: 1s ease all;
+    color: #333;
+    font-size: 1.5rem;
+    &:hover {
+        color: white;
+        background-color: $yellow;
+    }
+}
+
+ul.openingsuren {
+    //border: 1px solid red;
+    padding: 0;
+    li {
+        //border: 1px solid green;
+        display: flex;
+        span {
+            &:first-child {
+                //border: 2px dashed hotpink;
+                text-align: right;
+                padding-right: 1rem;
+                font-weight: 700;
+            }
+            flex: 0 0 50%;
+            //border: 1px solid blue;
+        }
+    }
 }
