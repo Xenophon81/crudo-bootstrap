@@ -1,0 +1,12 @@
+// voorkeuren
+
+$blue: red;
+// bootstrap
+
+@import "./bootstrap/scss/bootstrap.scss";
+
+// uw eigen css
+
+body {
+    background-color: yellow;
+}
