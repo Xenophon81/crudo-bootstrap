@@ -80,3 +80,11 @@ section {
 tr {
     border-bottom: 2px dotted $yellow;
 }
+
+// styling buttons
+
+.btn-outline-dark:hover {
+    color: #fff;
+    background-color: $yellow;
+    border-color: $yellow;
+}

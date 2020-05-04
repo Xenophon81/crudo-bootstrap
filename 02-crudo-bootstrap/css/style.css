@@ -47,4 +47,9 @@ section.brown-background {
 tr {
   border-bottom: 2px dotted #ffce4d; }
 
+.btn-outline-dark:hover {
+  color: #fff;
+  background-color: #ffce4d;
+  border-color: #ffce4d; }
+
 /*# sourceMappingURL=style.css.map */
