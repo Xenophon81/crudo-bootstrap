@@ -23,7 +23,7 @@
 
 <body>
 
-  <nav class="navbar navbar-expand-lg navbar-light bg-light shadow">
+  <nav class="navbar navbar-expand-lg navbar-light bg-light shadow fixed-top">
     <div class="container">
       <a class="navbar-brand" href="#">
         <img src="./img/logo_black.svg" width="100" height="75" alt="logo">
@@ -72,19 +72,25 @@
     </div>
   </nav>
 
-
   <!-- start jumbotron -->
-  <div class="jumbotron jumbotron-fluid vh-100 position-relative">
+  <div class="jumbotron jumbotron-fluid vh-100 position-relative d-flex align-items-center">
+
     <div class="container">
 
-      <div class="embed-responsive embed-responsive-16by9">
-        <div class="embed-responsive-item">
-          <!-- video -->
-          <iframe width="560" height="315" src="https://www.youtube.com/embed/dChIO96qyeM" frameborder="0"
-            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-          <!-- end video-->
+      <div class="row">
+        <div class="col">
+          <div class="embed-responsive embed-responsive-16by9">
+            <div class="embed-responsive-item">
+              <!-- video -->
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/dChIO96qyeM" frameborder="0"
+                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+              <!-- end video-->
+            </div>
+          </div>
         </div>
       </div>
+
     </div>
 
     <div class="social container-fluid position-absolute">
@@ -103,9 +109,67 @@
     </div>
 
   </div>
-
   <!-- end jumbotron -->
 
+
+  <!-- pagina inhoud -->
+
+  <section>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 my-3">
+          <img src="./img/voorgevel.jpg" alt="voorgevel winkel" class="img-fluid w-100">
+        </div>
+        <div class="col-md-6 my-3">
+          <h2>Onze Passie</h2>
+          <p>Vanuit onze passie voor een gezonde en natuurvriendelijke leefstijl, is de droom ontstaan om een duurzaam,
+            100% plantaardig eetcafé met winkel te openen. In 2014 zijn wij gestart als Raw Food café maar hebben
+            inmiddels ook een volledige warme kaart om een breed publiek te kunnen laten ervaren hoe compleet en lekker
+            plantaardig eten is. Van vegan junkfood tot supergezonde Living Foods.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- new section: 'eetcafe image ' -->
+
+  <section class="yellow-background my-3">
+    <div class="container">
+      <div class="col">
+        <img src="./img/eetcafe.jpg" alt="foto bramen" class="w-100 img-fluid">
+      </div>
+    </div>
+  </section>
+
+
+  <!-- section: my restaurant -->
+
+  <section class="my-restaurant ">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 text-right my-3">
+
+          <h2>Restaurant</h2>
+          <p>Bij Crudo kunt u terecht voor een fair kopje Moyee koffie of thee met een “guilt free” stuk taart, vers
+            geperste juices en smoothies en een heerlijke lunch of diner. Alle huisgemaakte gerechten zijn 100%
+            plantaardig, maar ook biologisch, glutenvrij, lactosevrij en suikervrij. Neem ook gerust je laptop mee en
+            maak gebruik van het open Wi-Fi-netwerk.</p>
+          <h3>Take Away</h3>
+          <p>Alles op onze kaart is ook To Go, liefst in je eigen meegebrachte verpakking. Ook voor de juices en
+            smoothies kun je je eigen beker meenemen. Geniet van heerlijk verse producten die je een energieboost geven
+            voor de rest van je dag!</p>
+          <a href="#menu" class="btn btn-outline-dark">Bekijk het Menu</a>
+
+
+
+        </div>
+        <div class="col-md-6 my-3">
+          <img src="./img/koffie.jpg" alt="koffiezet" class="img-fluid w-100">
+        </div>
+      </div>
+    </div>
+  </section>
 
 
 
