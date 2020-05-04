@@ -1,6 +1,7 @@
 // Peter bootstrap theme
 
 $yellow: #ffce4d;
+$green: #6dccaa;
 
 body {
 }
@@ -42,7 +43,15 @@ section h2 {
 }
 
 section {
+    //border: 10px solid red;
     &.yellow-background {
         background-color: $yellow;
     }
+    &.green-background {
+        background-color: $green;
+    }
+}
+
+.img-parallax {
+    object-fit: contain;
 }
