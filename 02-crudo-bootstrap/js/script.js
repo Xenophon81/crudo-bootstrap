@@ -7,7 +7,7 @@ window.onscroll = function () {
     if (window.pageYOffset > hoogte_header) {
         header.classList.add("stick-to-top");
         logo.src = "./img/logo_black.svg";
-        header.style.backgroundColor = 'white';
+        //header.style.backgroundColor = 'white';
     } else {
         header.classList.remove("stick-to-top");
         logo.src = "./img/logo_white.svg";
