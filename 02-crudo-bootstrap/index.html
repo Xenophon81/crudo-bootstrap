@@ -331,40 +331,11 @@
   <footer>
     <div class="container">
       <div class="row">
-        <div class="col-md-4 text-center my-3">
-
-          <img src="./img/logo_footer.svg" alt="logo footer" class="w-50">
-
-          <div class="social-icons">
-            <a href="http://www.facebook.com">
-              <i class="fab fa-facebook"></i>
-            </a>
-
-            <a href="http://www.twitter.com">
-              <i class="fab fa-twitter"></i>
-            </a>
-
-            <a href="http://www.instagram.com">
-              <i class="fab fa-instagram"></i>
-            </a>
-          </div>
-
-          <h4> <i class="fas fa-map-marker-alt"></i> &nbsp; Address</h4>
-          <p>Burchtstraat 126</p>
-          <p>6511 RK Nijmegen</p>
-
-          <h4><i class="fas fa-phone-volume"></i>&nbsp; Contact</h4>
-          <p><strong>tel:</strong> +34 345309534534</p>
-          <p><strong>tel:</strong> +34 345309534534</p>
-          <p><strong>tel:</strong> +34 345309534534</p>
-          <p><strong>tel:</strong> +34 345309534534</p>
 
 
-
-        </div>
-
-        <div class="col-md-4">
-          <h4 class="text-center h6">Openingsuren</h4>
+        <!-- fix deze shit in het weekend ! -->
+        <div class="col-md-4 my-5 d-flex align-items-end ">
+          <h4 class="text-center h6"> <i class="far fa-clock"></i> &nbsp; Openingsuren</h4>
 
           <ul class="openingsuren">
             <li>
@@ -398,10 +369,90 @@
           </p>
 
         </div>
-        <div class="col-md-4">3</div>
+
+        <div class="col-md-4 text-center my-5">
+
+          <img src="./img/logo_footer.svg" alt="logo footer" class="w-50">
+
+          <div class="social-icons">
+            <a href="http://www.facebook.com">
+              <i class="fab fa-facebook"></i>
+            </a>
+
+            <a href="http://www.twitter.com">
+              <i class="fab fa-twitter"></i>
+            </a>
+
+            <a href="http://www.instagram.com">
+              <i class="fab fa-instagram"></i>
+            </a>
+          </div>
+
+          <h4> <i class="fas fa-map-marker-alt"></i> &nbsp; Address</h4>
+          <div class="address">
+            <p>Burchtstraat 126</p>
+            <p>6511 RK Nijmegen</p>
+          </div>
+
+          <h4><i class="fas fa-phone-volume"></i>&nbsp; Contact</h4>
+          <p><strong>tel:</strong> +34 345309534534</p>
+          <p><strong>tel:</strong> +34 345309534534</p>
+          <p><strong>tel:</strong> +34 345309534534</p>
+          <p><strong>tel:</strong> +34 345309534534</p>
+
+
+
+        </div>
+
+        <div class="col-md-4 my-5">
+          <h4><i class="far fa-envelope-open"></i> &nbsp;Stuur een bericht</h4>
+
+          <form action="" class="mt-3">
+
+            <!-- uw naam -->
+            <div class="form-group">
+              <label for="yourname">Uw Naam:</label>
+              <input type="text" name="uw naam" id="yourname" class="form-control" aria-describedby="yourname">
+            </div>
+
+            <!-- uw email -->
+            <div class="form-group">
+              <label for="email">Uw E-mail:</label>
+              <input type="email" name="uw email" id="email" class="form-control" aria-describedby="email">
+            </div>
+
+            <!-- uw subject -->
+            <div class="form-group">
+              <label for="subject">Onderwerp:</label>
+              <input type="text" name="subject" id="subject" class="form-control" aria-describedby="subject">
+            </div>
+
+            <div class="form-group">
+              <label for="message">Uw Bericht</label>
+              <textarea class="form-control" id="message" rows="3"></textarea>
+            </div>
+
+            <input type="submit" value="Verstuur" class="btn btn-primary btn-block">
+
+          </form>
+
+        </div>
+
+
       </div>
     </div>
   </footer>
+
+  <div class="copyright py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <p>
+            © Crudo 2020 | Design by Byron </p>
+        </div>
+      </div>
+    </div>
+  </div>
 
 
   <div id="debug">

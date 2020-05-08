@@ -29,10 +29,13 @@ section h2 {
 
 section.yellow-background {
   background-color: #ffce4d; }
+
 section.green-background {
   background-color: #6dccaa; }
+
 section.brown-background {
   background-color: #ebcd9b; }
+
 section.mint-background {
   background-color: #c1e092; }
 
@@ -80,8 +83,10 @@ footer h4 {
   font-family: "Montserrat", "Helvetica Neue", Helvetica, sans-serif;
   font-weight: 700;
   text-transform: uppercase; }
+
 footer .col-md-4 {
   border: 1px solid red; }
+
 footer p {
   margin: 0 0; }
   footer p:first-child {
@@ -107,5 +112,3 @@ footer p {
 
 .copyright {
   background-color: #e6e6e6; }
-
-/*# sourceMappingURL=style.css.map */

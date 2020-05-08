@@ -4,6 +4,7 @@ $yellow: #ffce4d;
 $green: #6dccaa;
 $brown: #ebcd9b;
 $mint: #c1e092;
+$lichtgrijs: #e6e6e6;
 
 .jumbotron {
     background-color: $green;
@@ -122,4 +123,49 @@ ul.openingsuren {
             //border: 1px solid blue;
         }
     }
+}
+
+footer {
+    //background-color: pink;
+    h4 {
+        font-size: 1.1rem;
+        font-family: "Montserrat", "Helvetica Neue", Helvetica, sans-serif;
+        font-weight: 700;
+        text-transform: uppercase;
+    }
+
+    .col-md-4 {
+        border: 1px solid red;
+    }
+
+    p {
+        &:first-child {
+            margin-top: 2rem;
+        }
+        margin: 0 0;
+        &:last-child {
+            margin-bottom: 2rem;
+        }
+    }
+}
+
+.social-icons i {
+    width: 42px;
+    height: 42px;
+    margin: 2rem 2px;
+    line-height: 42px;
+    text-align: center;
+    font-size: 20px;
+    display: inline-block;
+    border-radius: 100%;
+    background: transparent;
+    color: #333;
+    border: 2px solid #333;
+    transition: all 0.2s ease-out;
+    -webkit-transition: all 0.2s ease-out;
+    -moz-transition: all 0.2s ease-out;
+}
+
+.copyright {
+    background-color: $lichtgrijs;
 }
