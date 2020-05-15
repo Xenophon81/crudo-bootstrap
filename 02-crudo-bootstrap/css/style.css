@@ -27,14 +27,17 @@ section h2 {
   right: 0;
   left: unset; }
 
-section.yellow-background {
-  background-color: #ffce4d; }
-section.green-background {
-  background-color: #6dccaa; }
-section.brown-background {
-  background-color: #ebcd9b; }
-section.mint-background {
-  background-color: #c1e092; }
+section {
+  overflow: hidden;
+  min-height: 30vh; }
+  section.yellow-background {
+    background-color: hotpink; }
+  section.green-background {
+    background-color: #6dccaa; }
+  section.brown-background {
+    background-color: #ebcd9b; }
+  section.mint-background {
+    background-color: #c1e092; }
 
 .img-parallax {
   object-fit: contain; }
@@ -80,8 +83,10 @@ footer h4 {
   font-family: "Montserrat", "Helvetica Neue", Helvetica, sans-serif;
   font-weight: 700;
   text-transform: uppercase; }
+
 footer .col-md-4 {
   border: 1px solid red; }
+
 footer p {
   margin: 0 0; }
   footer p:first-child {
@@ -107,5 +112,3 @@ footer p {
 
 .copyright {
   background-color: #e6e6e6; }
-
-/*# sourceMappingURL=style.css.map */

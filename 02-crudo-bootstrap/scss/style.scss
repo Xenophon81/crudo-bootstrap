@@ -52,8 +52,12 @@ section h2 {
 
 section {
     //border: 10px solid red;
+    overflow: hidden; // doe ik voor de parralax plugin
+    min-height: 30vh;
+
     &.yellow-background {
-        background-color: $yellow;
+        //background-color: $yellow;
+        background-color: hotpink;
     }
     &.green-background {
         background-color: $green;
@@ -124,6 +128,10 @@ ul.openingsuren {
         }
     }
 }
+
+// .bramen {
+//     transform: scale(0.8);
+// }
 
 footer {
     //background-color: pink;

@@ -19,3 +19,6 @@ window.onscroll = function () {
 // new simpleParallax(image, {
 //     scale: 1.2
 // });
+
+// Accepts any class name
+var rellax = new Rellax('.rellax');

@@ -1,0 +1,1 @@
+var header=document.querySelector(".navbar"),hoogte_header=header.offsetTop,logo=document.querySelector("img.logo");window.onscroll=function(){window.pageYOffset>hoogte_header?(header.classList.add("stick-to-top"),logo.src="./img/logo_black.svg"):(header.classList.remove("stick-to-top"),logo.src="./img/logo_white.svg")};var rellax=new Rellax(".rellax");
